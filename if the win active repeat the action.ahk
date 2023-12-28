@@ -3,9 +3,6 @@
 
 
 app := "ahk_exe Code.exe"
-#HotIf WinWaitActive(app)
-
-
 while  WinWaitActive(app){
 ;your code here start 
 MsgBox "^-^"
